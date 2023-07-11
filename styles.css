@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    align-items: center;
+    height: 70vh;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+input::placeholder {
+    font: 0.75rem/3 sans-serif;
+}
+.un {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.pwd {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.btn {
+    width: 320px;
+    margin-bottom: 20px;
+}
+.fb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login{
+    color: #385185;
+    font-weight: 499;
+}
+.reset {
+    font-weight: 10;
+    color:#045107;
+    font-size: small;
+    padding: 20px;
+}
+.footer {
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.logo {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yx/r/WtxJZZ3-9ZP.png); 
+    background-position: 0px 0px; 
+    background-size: 176px 186px; 
+    width: 174px; 
+    height: 50px; 
+    background-repeat: no-repeat; 
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
