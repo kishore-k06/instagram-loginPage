@@ -66,7 +66,6 @@ input::placeholder {
     border: 1px solid gray;
 }
 .logo {
-    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yx/r/WtxJZZ3-9ZP.png); 
     background-position: 0px 0px; 
     background-size: 176px 186px; 
     width: 174px; 
@@ -75,8 +74,11 @@ input::placeholder {
     display: inline-block;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 25px;
 }
 
+#instimg {
+    padding-right: 20px;
+}
